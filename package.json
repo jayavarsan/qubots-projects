@@ -1,0 +1,20 @@
+{
+  "name": "Qubots-Caption generator",
+  "version": "2.0.0",
+  "description": "AI powered Application which is capable of generating caption for the given image according to the mood selected ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Prasanth",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^16.2.8",
+    "electron-builder": "^22.14.5"
+  },
+  "build": {
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  }
+}
